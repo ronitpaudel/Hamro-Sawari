@@ -1,0 +1,42 @@
+/* ABOUT CSS */
+.aboutus {
+  display: flex;
+  height: 60rem;
+
+  background: linear-gradient(to right, #ccffff 0%, #ff99cc 100%);
+}
+.container {
+  display: flex;
+
+  background: linear-gradient(to left, #ccccff 0%, #66ccff 100%);
+  margin-top: 6%;
+  margin-left: 3%;
+  margin-right: 2%;
+  height: 43rem;
+}
+.about {
+  background: linear-gradient(to left, #ccccff 0%, #6666ff 100%);
+  margin-left: 6%;
+  padding: 2%;
+  margin-top: 3%;
+
+  height: 40rem;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container P {
+  justify-content: center;
+  margin-left: 2%;
+  margin-top: 2%;
+  text-align: justify;
+  color: chocolate;
+  size: 50rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+.container img {
+  height: 50%;
+  width: 50%;
+}

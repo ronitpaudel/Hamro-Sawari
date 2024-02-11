@@ -1,0 +1,113 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family:"poppins",sans-serif;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+
+.nab-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center      ;
+    box-sizing: border-box;
+    
+    border: 1px solid white;
+    
+    /* width: 100%;
+    height: 500%;
+    size: 100%; */
+    background-color: coral;
+}
+    
+
+.nab-list{
+    display: flex;
+    /* justify-content: right; */
+    align-items:center;
+    margin-right: 8rem;
+    font-size: x-large;
+    font-weight:bold;
+    gap: 30px;
+    color: aquamarine;
+    /* margin-left: 15%; */
+
+}
+.nab-list a{
+    color: blueviolet;
+    transition: 0.3s ease-in-out;
+    
+}
+.nab-list a:hover{
+color: coral;
+background-color: gray;
+border-radius: 10px;
+padding: 10px;
+}
+.nab-logo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.subhead{
+    /* margin-top: 0; */
+    color: #33ccff;
+    text-transform: uppercase;
+    
+}
+.slogan{
+    /* margin-top: 0; */
+    color: black;
+    padding-bottom: 20px;
+}
+.head h3{
+    font-weight:400 ;
+    margin-top: 5%;
+}
+.bannerlogo img{
+    height: 200px;
+}
+.booknow a{
+display: flex;
+justify-content: center;
+width: 100px;
+
+   background-color: skyblue;
+   padding: 10px;
+   color: white;
+   border-radius: 10px;
+   transition: 0.3s ease-in-out;
+
+    
+
+}
+.booknow a:hover{
+    background-color: bisque;
+    color: black;
+}
+.banner{
+    display: flex;
+    justify-content: end;
+    gap: 10rem;
+    align-items: center;
+    background: linear-gradient(to bottom left, #33ccff 0%, #ffffff 72%);
+}
+
+.heading .trans img{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    
+   
+
+}
+.carlogo img{
+    height: 150px;
+margin-left: 65%;
+margin-bottom: 25%;
+}
